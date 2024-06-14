@@ -1,0 +1,13 @@
+<div class="text-center">
+  <div class="col-md-8">
+    <h4><a href="/project/{{id}}">{{name}}</a></h4>
+  </div>
+
+  <p>{{description}}</p>
+  <p>Created by {{user.name}} on {{format_date createdAt}}</p>
+  <p>
+    <span class="comments">{{user_comment}}</span>
+    <button class="btn btn-primary">Comment</button>
+    <button class="btn btn-sm btn-danger" data-id="{{id}}">DELETE</button>
+  </p>
+</div>

@@ -32,7 +32,7 @@ const sess = {
     resave: false,
     saveUninitialized: true,
     // Sets up session store
-    store: new SequelizeStore({
+    store: new sequalizeStore({
       db: sequelize,
     }),
   };
